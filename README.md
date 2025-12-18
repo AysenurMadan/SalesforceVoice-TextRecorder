@@ -1,6 +1,6 @@
 Kurulum sadece 30 saniye sürer ve tamamen ücretsizdir.
 
-1. Adım: Size gönderdiğim .zip dosyasını masaüstüne indirin ve içindeki klasörü dışarı çıkartın.
+1. Adım: .zip dosyasını masaüstüne indirin ve içindeki SalesforceVoiceRecorder klasörünü dışarı çıkartın.
 
 2. Adım: Google Chrome'u açın ve adres çubuğuna şu yazıyı yapıştırıp Enter'a basın: chrome://extensions
 
