@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Salesforce Voice & Record",
+  "version": "1.0",
+  "description": "Konuşmaları metne dökerek Salesforce'a yazar ve sesi kaydeder.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Kaydediciyi Aç"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
